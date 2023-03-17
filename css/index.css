@@ -1,8 +1,24 @@
 a{
     width: 50px;
-    text-decoration: none;
     color: rgb(7, 241, 19)
 
+}
+h1{
+    color: rgb(14, 243, 7);
+    font-size: 100px; 
+}
+
+h2{
+    color:rgb(14, 243, 7);
+    font-size: 50px;
+}
+
+h3{
+    color: rgb(14, 243, 7);
+}
+
+body{
+    background-color: black;
 }
 * {
     margin: 0;
