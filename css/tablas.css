@@ -23,6 +23,30 @@ th, td{
 }
 .dc-color{
     background-color: darkcyan;
+    color: white;
+}
+.dc-color1{
+    background-color: darkcyan;
     border-top-left-radius: 20px;
+    color: white;
+}
+.naranja{
+    background-color: orange;
+    color:  white;
+}
+.azul{
+    background-color: blue;
+    color: white;
+}
+.rojo{
+    background-color: red;
+    color: white;
+}
+.verde{
+    background-color: green;
+    color: white;
+}
+.a{
+    background-color: darkcyan;
     color: white;
 }
