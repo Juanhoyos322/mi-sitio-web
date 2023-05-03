@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+ul {
+    list-style: none;
+    border-top: 2px solid rgba(122, 122, 122, 0.762);
+    width: 300px;
+    color: rgb(70, 57, 57);
+    font-size: 20px;
+}
+
+nav{
+    color: rgb(70, 57, 57);
+    background-color: blanchedalmond;
+    font-size: 20px;
+    width: 300px;
+    padding: 5px;
+}
+i{
+    padding: 10px;
+
+}
