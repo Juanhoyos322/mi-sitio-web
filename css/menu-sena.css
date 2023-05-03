@@ -1,0 +1,19 @@
+.a,select {
+    list-style: none;
+    width: 300px;
+    background-color: rgb(82, 148, 202);
+    font-size: 15px;
+    font-family: 'Bebas Neue', cursive;
+font-family: 'Poppins', sans-serif;
+margin: 2px;
+color: whitesmoke;
+padding: 10px;
+}
+div{
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: white;
+} 
+body{
+    background-color: cornflowerblue;
+}
