@@ -8,12 +8,69 @@ font-family: 'Poppins', sans-serif;
 margin: 2px;
 color: whitesmoke;
 padding: 10px;
+cursor: pointer;
+}
+.a:hover{
+    background-color: rgb(83, 83, 83);
 }
 div{
     margin-left: 200px;
     margin-right: 200px;
-    background-color: white;
+    /* background-color: white; */
 } 
 body{
-    background-color: cornflowerblue;
+    background-color: rgb(178, 198, 235);
 }
+.b{
+    list-style: none;
+    display: block;
+    float: left;
+    list-style: none;
+    /* width: 300px; */
+    background-color: rgb(82, 148, 202);
+    font-size: 15px;
+    font-family: 'Bebas Neue', cursive;
+font-family: 'Poppins', sans-serif;
+margin: 2px;
+color: whitesmoke;
+padding: 10px;
+cursor: pointer;
+}
+.b:hover{
+    background-color: rgb(83, 83, 83);
+}
+.nav2 li:hover > ul {
+    display: none;
+    cursor: pointer;
+    padding: 20px;
+}
+.nav2 li ul {
+    display: none;
+    cursor: pointer;
+}
+.nav2{
+    
+        list-style: none;
+        display: inline;
+        list-style: none;
+        width: 300px;
+        /* background-color: rgb(82, 148, 202); */
+        font-size: 15px;
+        font-family: 'Bebas Neue', cursive;
+    font-family: 'Poppins', sans-serif;
+    margin: 2px;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    
+}
+.menu2{
+    margin-left: 200px;
+}
+.menu1{
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: aliceblue;
+    margin-top: 170px;
+    /* cursor: pointer; */
+}
+
