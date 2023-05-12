@@ -9,23 +9,54 @@
     <script defer src="ficha-tecnica.js"></script>
 </head>
 <body>
-    <h1>Ficha Tecnica</h1>
-    <input type="text" id="nombre" placeholder="Nombre"><br><br>
-    <input type="text" id="apellido" placeholder="Apellido"><br><br>
-    <input type="date" id="fechadenacimiento" placeholder="Fecha"><br><br>
-    <input type="text" id="correo" placeholder="E-mail"><br><br>
-    <input type="number" id="cel" placeholder="Telefono"><br><br>
+    <h1>CARACTERISTICAS DEL PRODUCTO </h1>
+    <input type="text" id="nombre" placeholder="Nombre del producto"><br><br>
+    <input type="text" id="linea" placeholder="Linea de produccion"><br><br>
+    <input type="text" id="anteriores" placeholder="Versiones anteriores del producto"><br><br>
+    <input type="text" id="actual" placeholder="Version actual del producto"><br><br>
+    <input type="text" id="modulo" placeholder="Modulo"><br><br>
+    <h2>DESCRIPCION DEL PRODUCTO</h2>
+    <input type="text" id="dp" placeholder="Descripcion del producto"><br><br>
+    <input type="text" id="op" placeholder="objetivo del producto"><br><br>
+    <h2>ARQUITECTURA</h2>
+    <input type="text" id="arquitectura" placeholder="Arquitectura"><br><br>
+    <h2>REQUERIMIRNTO DEL PRODUCTO</h2>
+    <P>REQUISITOS DEL PRODUCTOO (SERVIDOR)</P>
+    <input type="text" id="rf" placeholder="Requerimientos fisicos minimos"><br><br>
+    <input type="text" id="rl" placeholder="Requerimientos logicos necesarios"><br><br>
+    <input type="text" id="re" placeholder="Recomendaciones"><br><br>
+    <p>REQUISITOS DEL PRODUCTO (CLIENTE)</p>
+    <input type="text" id="rfc" placeholder="Requerimientos fisicos minimos cliente"><br><br>
+    <input type="text" id="rlc" placeholder="Requerimientos logicos necesarios cliente"><br><br>
+    <input type="text" id="rc" placeholder="Recomendaciones cliente"><br><br>
+    <h2>REQUERIMIENTOS</h2>
+    <input type="text" id="fs" placeholder="Funciones del sistema"><br><br>
+    <input type="text" id="ra" placeholder="Requerimientos adicionales"><br><br>
+    <input type="text" id="cp" placeholder="Clientes del producto"><br><br>
     <button onclick="almacenarData()">Guardar</button>
     <hr>
-    <p>Nombre almacenado: <j id="datoNombre"></j></p>
-    <p>Apellido almacenado: <j id="datoApellido"></j></p>
-    <p>Fecha almacenada: <j id="datoFecha"></j></p>
-    <p>Correo almacenado: <j id="datoE-mail"></j></p>
-    <p>Telefono almacenado: <j id="datoTelefono"></j></p>
+    <p>Nombre del producto: <j id="datoNombre"></j></p>
+    <p>Linea de produccion: <j id="datoLinea"></j></p>
+    <p>Versiones anteriores del producto: <j id="datoAnteriores"></j></p>
+    <p>Version actual del producto: <j id="datoActual"></j></p>
+    <p>Modulo: <j id="datoModulo"></j></p>
+    <p>Descripcion del producto<j id="datoDP"></j></p>
+    <p>objetivo del producto<j id="datoOP"></j></p>
+    <p>Arquitectura<j id="datoArquitectura"></j></p>
+    <p>Requerimientos fisicos minimos<j id="datoRF"></j></p>
+    <p>Requerimientos logicos necesarios<j id="datoRL"></j></p>
+    <p>Recomendaciones<j id="datoRE"></j></p>
+    <p>Requerimientos fisicos minimos cliente<j id="datoRFC"></j></p>
+    <p>Requerimientos logicos necesarios cliente<j id="datoRLC"></j></p>
+    <p>Recomendaciones cliente<j id="datoRC"></j></p>
+    <p>Requerimientos adicionales<j id="datoFS"></j></p>
+    <p>Descripcion del producto<j id="datoRA"></j></p>
+    <p>Clientes del producto<j id="datoCP"></j></p>
     <p>
         <button onclick="cargarData()">cargar elementos</button>
         <a href="ficha.html" target="_blank"  ><button onclick="cargarData()">Ficha tecnica</button></a>
     </p>
+    <BUtton onclick="clearlocalstore()">Borrar almacenamiento</BUtton>
     <hr>
     
 </body>
