@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ficha</title>
+    <link rel="stylesheet" href="ficha-tecnica.css">
+    <script defer src="ficha-tecnica.js"></script>
+</head>
+<body>
+    <h1>Ficha Tecnica</h1>
+    <input type="text" id="nombre" placeholder="Nombre"><br><br>
+    <input type="text" id="apellido" placeholder="Apellido"><br><br>
+    <input type="date" id="fechadenacimiento" placeholder="Fecha"><br><br>
+    <input type="text" id="correo" placeholder="E-mail"><br><br>
+    <input type="number" id="cel" placeholder="Telefono"><br><br>
+    <button onclick="almacenarData()">Guardar</button>
+    <hr>
+    <p>Nombre almacenado: <j id="datoNombre"></j></p>
+    <p>Apellido almacenado: <j id="datoApellido"></j></p>
+    <p>Fecha almacenada: <j id="datoFecha"></j></p>
+    <p>Correo almacenado: <j id="datoE-mail"></j></p>
+    <p>Telefono almacenado: <j id="datoTelefono"></j></p>
+    <p>
+        <button onclick="cargarData()">cargar elementos</button>
+        <a href="ficha.html" target="_blank"  ><button onclick="cargarData()">Ficha tecnica</button></a>
+    </p>
+    <hr>
+    
+</body>
+</html>
