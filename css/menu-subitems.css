@@ -8,7 +8,6 @@ nav ul{
     /* height: 100%; */
     text-align: left;
     list-style: none;
-    margin-left: 50px;
     position: absolute;
     left: 0;
     background-color: rgb(74, 74, 74);
@@ -44,6 +43,9 @@ ul li{
 nav li li{
     max-height: 0;
     overflow: hidden;
+}
+li{
+    color: white;
 }
 nav li:hover > ul > li{
     max-height: 500px;
