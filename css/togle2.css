@@ -4,7 +4,7 @@
 .contenedor1-off {
     width: 250px;
     height: 120px;
-    background: rgb(21, 255, 0);
+    background-color: rgb(103, 104, 103);
     border-radius: 55px;
     padding: 3px;
     transition: all 400ms;
@@ -16,7 +16,7 @@
     border-radius: 55px;
     padding: 3px;
     transition: all 400ms;
-    background-color: rgb(103, 104, 103);
+    background: rgb(21, 255, 0);
     cursor: pointer;
 }
 .contenedor2-off {
