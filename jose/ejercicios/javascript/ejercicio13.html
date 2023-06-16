@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 13</title>
+</head>
+<body>
+
+    <!-- Realizar un programa que capture los datos de un empleado:
+Nombre, Genero (1-masculino, 2-femenino), Salario básico, y tiempo de servicio.
+El  sistema  debe  calcular  el  valor  de  la  bonificación  anual  en  base  a  los  siguientes lineamientos de la empresa:
+Si es mujer y el tiempo de servicio es superior a 5 años, su bonificación será de un 20% del
+Salario básico
+Si es mujer y el tiempo de servicio es inferior o igual a 5 años, su bonificación será de un
+15% del Salario básico
+Si es hombre y el tiempo de servicio es superior a 6 años, su bonificación será de un 20% del
+Salario Básico.
+Si es hombre y el tiempo de servicio está entre 1 y 6 años su bonificación será de un 15%
+del Salario Básico.
+ -->
+
+ Ingrese su Nombre: <br>
+ <input type="text" id="nom"><br>
+Ingrese su genero: <br>
+<select name="ge" id="genero">
+    <option value="">Genero</option>
+    <option value="f">Femenino</option>
+    <option value="m">Masculino</option>
+</select><br>
+Ingrese su salario basico <br>
+<input type="number" id="sueldo" placeholder="salario"><br>
+Ingrese su tiempo de servicio <br>
+<input type="number" id="servicio" placeholder="tiempo en años"><br>
+
+<p id="a"></p>
+<!-- <p id="b"></p>
+<p id="c"></p>
+<p id="d"></p> -->
+
+<button onclick="verificar()">Verificar</button>
+
+
+
+<script src="js/ejercicio13.js"></script>
+
+    
+</body>
+</html>
