@@ -1,0 +1,7 @@
+cadena [25]numero
+
+inicio 
+   escriba "ingrese un numero"
+   lea numero
+   escriba "su numero es", numero,"gracias"
+fin   

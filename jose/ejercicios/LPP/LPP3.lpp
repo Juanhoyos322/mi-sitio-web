@@ -1,0 +1,10 @@
+cadena [50]iniciales, estatura
+
+
+inicio
+    escriba "ingrese las iniciales de su nombre"
+    lea iniciales
+    escriba "ahora ingrese su estatura"
+    lea estatura
+    escriba "sus iniciales son ", iniciales," y su estatura es ", estatura
+fin

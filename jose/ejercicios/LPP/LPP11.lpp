@@ -1,0 +1,9 @@
+real R1, R2
+
+inicio
+     escriba "ingrese la resistiencia 1 "
+     lea R1
+     escriba "ingrese la resistencia 2 "
+     lea R2
+     escriba "la resistencia equivalemte es ", (R1*R2)/(R1+R2)
+fin

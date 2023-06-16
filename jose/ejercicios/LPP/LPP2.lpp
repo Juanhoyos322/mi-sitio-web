@@ -1,0 +1,7 @@
+cadena [25]edad
+
+inicio
+     escriba "que edad tienes "
+     lea edad
+     escriba "ahora se que ru edad es ", edad," gracias"
+fin

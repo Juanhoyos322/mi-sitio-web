@@ -1,0 +1,11 @@
+real dias, horas, minutos, segundos
+
+inicio
+     escriba "ingrese los dias "
+     lea dias
+     escriba "ahora ingrese las horas "
+     lea horas
+     escriba "ahora ingreese los minutos "
+     lea minutos
+     escriba "la cantidad ingresada equivale a ", (86400*dias)+(3600*horas)+(60*minutos)," segundos"
+fin

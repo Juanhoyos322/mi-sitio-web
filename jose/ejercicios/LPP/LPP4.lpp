@@ -1,0 +1,10 @@
+entero precio, descuento, res
+
+inicio
+      escriba "ingrese el precio del producto "
+      lea precio
+      escriba "ingrese el descuento deseado "
+      lea descuento
+      res<- precio+(-precio*descuento/100)
+      escriba "el precio total a pagar es ", res
+fin

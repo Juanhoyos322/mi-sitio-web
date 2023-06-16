@@ -1,0 +1,5 @@
+segundos=int(input("ingrese los segundos "))
+dias=str((segundos/86400))
+horas=str((segundos/3600))
+minutos=str((segundos/60))
+print("la cantidad ingresada equivale a "+dias +" dias "+ horas +" horas "+ minutos +" minutos")

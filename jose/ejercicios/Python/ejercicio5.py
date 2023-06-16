@@ -1,0 +1,5 @@
+ladoA=int(input("igrese la medida en metros del lado A del rectangulo "))
+ladoB=int(input("ahora ingrese la medida en metros del lado B del rectangulo "))
+sum=str(ladoA+ladoB)
+mul=str(ladoA*ladoB)
+print("el perimetro del rectangulo es "+ sum +"m y el area equivale a "+ mul +"m")

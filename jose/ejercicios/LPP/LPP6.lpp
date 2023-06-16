@@ -1,0 +1,8 @@
+entero pesos, euros
+
+inicio
+     escriba "igrese el valor en pesos "
+     lea pesos
+     euros<- pesos/4444
+     escriba "su valos rn euros equivale a ", euros
+fin

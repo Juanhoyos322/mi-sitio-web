@@ -1,0 +1,11 @@
+real radio, pi, per, are, vol
+
+inicio
+     escriba "ingrese el valor del radio "
+     lea radio 
+     pi<- 3.1416
+     per<- 2*pi*radio
+     are<- pi*radio*radio
+     vol<- 4*pi*(radio*radio*radio)/3
+     escriba "el perimetro equivale a ", per,", el area equivale a ", are," y el volumen es igual a", vol
+fin

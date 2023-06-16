@@ -1,0 +1,11 @@
+entero sum, mul, ladoA, ladoB
+
+inicio
+     escriba "igrese la medida en metros del lado A del rectangulo "
+     lea ladoA
+     escriba "ahora ingrese la medida en metros del lado B del rectangulo "
+     lea ladoB
+     sum<- ladoA+ladoB
+     mul<- ladoA*ladoB
+     escriba "el perimetro del rectangulo es ", sum,"m y el area equivale a ", mul,"m"
+fin

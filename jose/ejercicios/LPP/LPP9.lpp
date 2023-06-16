@@ -1,0 +1,7 @@
+entero dias, horas, minutos, segundos
+
+inicio
+     escriba "ingrese los segundos "
+     lea segundos
+     escriba "la cantidad ingresada equivale a ", (segundos/86400)," dias ", (segundos/3600)," horas ", (segundos/60)," minutos"
+fin
