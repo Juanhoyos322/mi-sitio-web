@@ -1,0 +1,7 @@
+entero horas, precio 
+inicio 
+escriba "imgrese la cantidad de horas que lleva en el parqueadero "
+lea horas
+precio <- 1500*horas
+escriba "el total a pagar es de ", precio
+fin

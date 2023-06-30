@@ -1,0 +1,15 @@
+cadena [50] turno
+entero horas, total
+inicio
+escriba "ingrese su turno "
+lea turno
+escriba "ingrese horas trabajadas "
+lea horas
+si turno = "diurno" entonces
+		total <- horas * 10
+		escriba "el valor a pagar es de ", total," dolares"
+		sino
+		total <- horas * 15
+		escriba "el valor a pagar es de ", total," dolares"
+		fin si
+fin

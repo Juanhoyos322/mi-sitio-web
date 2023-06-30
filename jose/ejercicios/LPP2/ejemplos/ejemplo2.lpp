@@ -1,0 +1,20 @@
+entero ca1, ca2, ca3, promedio 
+
+inicio
+escriba "escriba las tres calificaciones "
+llamar nueva_linea
+escriba "calificacion 1 "
+lea ca1
+llamar nueva_linea
+escriba "calificacion 2 "
+lea ca2
+llamar nueva_linea
+escriba "calificacion 3 "
+lea ca3
+promedio <- (ca1 + ca2 + ca3)/3
+si promedio > 69 entonces
+             escriba "usted aprovo su calificiacion final es de ", promedio
+             sino
+             escriba "usted reprovo su calificiacion final es de ", promedio
+             fin si
+fin

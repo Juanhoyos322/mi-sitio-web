@@ -1,0 +1,30 @@
+entero numA, numB, numC
+
+inicio 
+escriba "ingrese dos numero enteros"
+llamar nueva_linea
+escriba "ingrese el numero A "
+lea numA
+llamar nueva_linea
+escriba "ingrese el numero B "
+lea numB
+llamar nueva_linea
+escriba "ingrese el numero c "
+lea numC
+si numA < numB entonces
+          si numA < numC entonces
+          escriba "el numero menor es ", numA
+         fin si
+   fin si
+          si numB < numC entonces
+          si numB < numA entonces
+          escriba "el numero menor es ", numB
+        fin si
+     fin si   
+         si numC < numB entonces
+         si numC < numA entonces
+         escriba "el numero menors es ", numC
+       fin si
+    fin si
+
+fin

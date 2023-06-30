@@ -1,0 +1,11 @@
+entero edad
+inicio 
+escriba "ingrese su edad "
+lea edad 
+si edad > 17 entonces
+             escriba "usted tiene ",edad," es mayor de edad" 
+             fin si
+si edad < 17 entonces
+             escriba "usted tiene ",edad," es menor de edad" 
+             fin si
+fin

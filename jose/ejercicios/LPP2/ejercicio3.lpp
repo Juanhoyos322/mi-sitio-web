@@ -1,0 +1,10 @@
+entero calificacion
+inicio
+escriba "ingrese su calificacion "
+lea calificacion
+si calificacion > 7 entonces
+             escriba "usted esta aprobado"
+             sino 
+             escriba "usted esta reprobado"
+             fin si
+fin
