@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+</head>
+<body>
+    <form action="#">
+       <p>Nombre del paciente</p> <input type="text" name="paciente" id="paciente" placeholder="paciente">
+       <p>Edad del paciente</p> <input type="text" name="edad" id="edad" placeholder="edad">
+       <p>Genero</p> <select name="genero" id="genero">
+        <option value="g">Genero</option>
+        <option value="hombre">hombre</option>
+        <option value="mujer">Mujer</option>
+       </select>
+       <p>Porcentaje de hemoglobina </p> <input type="text" name="hemoglobina" id="hemoglobina" placeholder=""><br>
+
+       <button onclick="calcular()">Calcular</button>
+    </form>
+
+    <p id="enviar"></p>
+
+    <script src="eje2.js"></script>
+    
+</body>
+</html>
