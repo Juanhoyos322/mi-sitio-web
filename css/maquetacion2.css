@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    display: grid;
+    width: 100%;
+    grid-template: "empty-left          main-page             empty-right" 100vh /
+                    minmax(0px, 1fr)   minmax(700px, 1200px) minmax(0px, 1fr);
+}
+
+.main-page{
+    grid-area: main-page;
+}
+
+header{
+    display: grid;
+    grid-template: "logo main-menu" 200px/
+                    200px minmax(700px, 100%);
+    gap: 40px;
+    margin-top: 50px;
+}
+.logo{
+    grid-area: logo;
+    /* background-color: rgb(190, 30, 30); */
+    background-image: url(https://seeklogo.net/wp-content/uploads/2014/10/lamborghini-logo.png);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.main-menu{
+    grid-area: main-menu;
+}
+nav{
+    justify-content: end;
+}
+
+li{
+    list-style: none;
+    font-size: 1.3em;
+    line-height: 270px;
+    margin-left: 30px;
+    cursor: pointer;
+
+}
+
+.style-text{
+    font-family: verdana, sans-serif;
+    font-size: 1.6em;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content{
+    display: grid;
+    grid-template: "main-img  main-img  main-img" 850px
+                    "article-1  article-2   article-3" 
+                    "article-4  article-5   article-6"/
+                    1fr         1fr         1fr;
+    margin-top: 15px;
+    gap: 40px 70px;
+}
+
+.main-img{
+    grid-area: main-img;
+    background-color: darkcyan;
+    width: 100%;
+    background-image: url(http://4.bp.blogspot.com/-b8FKPNFjT34/U4bDS5dUbAI/AAAAAAAAA4I/0UsVGm5ZKKc/s1600/2014LamborghiniVenenoRoadsterFrontAngle6.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.img-article-1{
+    background-image: url(http://www.thesupercars.org/wp-content/uploads/2006/12/lamborghini-gallardo-spyder.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+}
+.img-article-2{
+    background-image: url(http://www.conceptcarz.com/images/Lamborghini/Lambo-Huracan-LP-610-4_2016-001.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+}
+.img-article-3{
+    background-image: url(http://2.bp.blogspot.com/-JpesycYvHws/TrJZUWjiRhI/AAAAAAAAA_0/MgRNgthvwew/s1600/Lamborghini-Murcielago_2002_1600x1200_wallpaper_06.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+}
+.img-article-4{
+    background-image: url(https://4.bp.blogspot.com/-wpqeFEBT248/WiWVqJ8d1XI/AAAAAAACrU8/0oSxzdSJbTATn99GlCno38UCZTzCX_DWQCLcBGAs/s1600/Lamborghini-Urus%2B%25287%2529.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+}
+
+.img-article-5{
+    background-image: url(https://performancedrive.com.au/wp-content/uploads/2012/04/Lamborghini-Aventador-3.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+}
+.img-article-6{
+    background-image: url(https://louderexhausts.nl/wp-content/gallery/sesto-elemento/Lamborghini-Sesto-Elemento.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+}
+
+.article-1{
+    grid-area: article-1;
+}
+.article-2{
+    grid-area: article-2;
+}
+.article-3{
+    grid-area: article-3;
+}
+.article-4{
+    grid-area: article-4;
+}
+.article-5{
+    grid-area: article-5;
+}
+.article-6{
+    grid-area: article-6;
+}
+.img-article{
+    height: 300px;  
+}
+
+.text-article-1{
+    height: 300px;
+}
+
+.style-text-article{
+    padding-top: 30px;
+    font-size: 1.2em;
+    color: rgb(48,48,48,.9);
+    font-family: verdana, sans-serif;
+    line-height: 1.4em; /* Por defecto vienen en 1.2em  */
+    display: flex;
+    text-align: justify;
+}
+
+@media only screen and (max-width: 1100px){
+    li{
+        list-style: none;
+        font-size: 0.9em;
+        line-height: 270px;
+        margin-left: 30px;
+        cursor: pointer;
+    
+    }
+
+    .logo{
+        background-image: url(https://i.pinimg.com/originals/12/52/35/12523560deb25ca0bc7d4126945670b9.png);
+        width: 100%;
+    }
+    body{
+        display: grid;
+        width: 100%;
+        grid-template: "empty-left          main-page             empty-right" 100vh /
+                        minmax(0px, 10px)   minmax(300px, 900px)  minmax(0px, 10px);
+    }
+    header{
+        display: grid;
+        grid-template: "logo  main-menu" 80px/
+                        150px minmax(150px, 260px);
+        gap: 40px;
+        margin-top: 50px;
+    }
+    
+    .main-content{
+        display: grid;
+        width: 100%;
+        grid-template: 
+                        "empty-left           logo                   main-menu            empty-right"     80px
+                        "empty-left           main-img               main-img             empty-right "      250px 
+                        "empty-left           article-1              article-2            empty-right"     auto
+                        "empty-left           article-3              article-4            empty-right"     auto 
+                        "empty-left           article-5              article-6            empty-right"     auto  /
+                         minmax(0px, 10px)   minmax(300px, 450px)  minmax(300px, 420px)  minmax(0px, 10px);
+    }
+
+}
