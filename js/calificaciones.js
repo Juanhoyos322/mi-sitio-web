@@ -21,16 +21,31 @@ var input_cinco = document.querySelector("#input-5")
             var total_cinco = parseInt(input_cinco.value) * 100 / resultado_interno
             barra_cinco.style.width = `${total_cinco}%`
 
+            mensaje=document.getElementById("mensaje")
+            mensaje.innerHTML=parseInt(total_cinco)+"%"
+
             var total_cuatro = parseInt(input_cuatro.value) * 100 / resultado_interno
             barra_cuatro.style.width = `${total_cuatro}%`
+
+            mensaje1=document.getElementById("mensaje2")
+            mensaje1.innerHTML=parseInt(total_cuatro)+"%"
 
             var total_tres = parseInt(input_tres.value) * 100 / resultado_interno
             barra_tres.style.width = `${total_tres}%`
 
+            mensaje2=document.getElementById("mensaje3")
+            mensaje2.innerHTML=parseInt(total_tres)+"%"
+
             var total_dos = parseInt(input_dos.value) * 100 / resultado_interno
             barra_dos.style.width = `${total_dos}%`
 
+            mensaje3=document.getElementById("mensaje4")
+            mensaje3.innerHTML=parseInt(total_dos)+"%"
+
             var total_uno = parseInt(input_uno.value) * 100 / resultado_interno
             barra_uno.style.width = `${total_uno}%`
+
+            mensaje4=document.getElementById("mensaje5")
+            mensaje4.innerHTML=parseInt(total_uno)+"%"
 
         })
